@@ -107,3 +107,18 @@
 #x = "barbecque nation"
 #print(x.count("n",10,15))
 
+string =""
+if string.issalnum():
+    print("alpha numeric character")
+    if string.isalpha():
+        print("alphabet character")
+        if string.islower():
+            print("lowercase alphabet characters")
+        else:
+            print("uppercase alphabet characters")
+    else:
+        print("it includes digit")
+elif string.isspace():
+    print("space ")
+else:
+    print("non-specific character")
