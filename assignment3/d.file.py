@@ -53,6 +53,8 @@
 # print(list(my_dict)[2])     
 
 
+
+
 #remove key from a dict:
 # my_dict ={'harshi':23,'anu':26,'radha':28}
 # my_dict.pop("anu")
